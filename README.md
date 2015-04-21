@@ -18,7 +18,7 @@ Example
 --------
 We are given the set of {1, 2, 3, 4, 5}. We want to know how many sets there are containing three elements. Therefore, we use the combination formula to find out.
 
-In other words, we are fiding _5 choose 3_.
+In other words, we are finding _5 choose 3_.
 
 ![](http://i.imgur.com/8ku3UHj.png)
 

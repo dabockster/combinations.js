@@ -10,7 +10,7 @@ var combinations = function(n, k){
 	var kFact = mathjs.factorial(k);
 
 	//compute (n-k)! for later
-	var nkFact = mathjs.factorial(n-k)
+	var nkFact = mathjs.factorial(n-k);
 
 	//set numerator & denominator
 	var numerator = nFact;
