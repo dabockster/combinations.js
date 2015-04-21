@@ -20,6 +20,8 @@ We are given the set of {1, 2, 3, 4, 5}. We want to know how many sets there are
 
 In other words, we are fiding _5 choose 3_.
 
+![](http://i.imgur.com/8ku3UHj.png)
+
 ({∅}, {1,1,1}, {1,1,2}, {1,1,3}, {1,1,4}, {1,1,5}, {1,2,1}, {1,2,2}, ..., {5,5,5})
 
 The answer is __120 combinations__.
