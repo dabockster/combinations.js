@@ -2,10 +2,10 @@ var combinations = require('../');
 var assert = require('assert');
 
 describe('combinations', function(){
-	it('should return undefined when k < n', function(){
-		assert.isUndefined(combinations(2, 1));
-		assert.isUndefined(combinations(5, 2));
-		assert.isUndefined(combinations(1000, 25));
+	it('should return undefined when k > n', function(){
+		assert.isUndefined(combinations(1, 2));
+		assert.isUndefined(combinations(2, 5));
+		assert.isUndefined(combinations(25, 100));
 	});
 
 	it('should return the number of possible combinations', function(){

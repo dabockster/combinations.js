@@ -1,8 +1,8 @@
 var mathjs = require('mathjs');
 
 var combinations = function(n, k){
-	//check if k <= n
-	if (k <= n){
+	//check if k > n
+	if (k > n){
 		return undefined;
 	}
 	//grab n! and k!
