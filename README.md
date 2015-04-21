@@ -10,7 +10,7 @@ Basically, it's doing this:
 
 ![](http://i.imgur.com/BTB1wG9.png)
 
-with _k_ > _n_ and _k_ < _n_ returning 0.
+as long as _k_ > _n_, while _k_ < _n_ returns 0.
 
 ## Usage
 
