@@ -1,4 +1,14 @@
-var mathjs = require('mathjs');
+var factorial = function(n){
+	if (n < 0){
+		return undefined;
+	}
+	else if (n == 0){
+		return 1;
+	}
+	else{
+		return n * factorial(n - 1);
+	}
+};
 
 var combinations = function(n, k){
 	//check if k > n
@@ -6,11 +16,11 @@ var combinations = function(n, k){
 		return 0;
 	}
 	//grab n! and k!
-	var nFact = mathjs.factorial(n);
-	var kFact = mathjs.factorial(k);
+	var nFact = factorial(n);
+	var kFact = factorial(k);
 
 	//compute (n-k)! for later
-	var nkFact = mathjs.factorial(n-k);
+	var nkFact = factorial(n-k);
 
 	//set numerator & denominator
 	var numerator = nFact;

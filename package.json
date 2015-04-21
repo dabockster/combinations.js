@@ -22,6 +22,5 @@
   },
   "homepage": "https://github.com/dabockster/combinations.js",
   "dependencies": {
-    "mathjs": "^1.5.2"
   }
 }
