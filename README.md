@@ -17,7 +17,8 @@ as long as _k_ > _n_, while _k_ < _n_ returns 0.
 Installing
 
 ```sh
-npm install --save combinations-js```
+npm install --save combinations-js
+```
 
 Importing
 
