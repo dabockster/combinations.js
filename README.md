@@ -12,6 +12,18 @@ Basically, it's doing this:
 
 as long as _k_ > _n_, while _k_ < _n_ returns 0.
 
+We call this _n choose k_.
+
+Example
+--------
+We are given the set of {1, 2, 3, 4, 5}. We want to know how many sets there are containing three elements. Therefore, we use the combination formula to find out.
+
+In other words, we are fiding _5 choose 3_.
+
+({∅}, {1,1,1}, {1,1,2}, {1,1,3}, {1,1,4}, {1,1,5}, {1,2,1}, {1,2,2}, ..., {5,5,5})
+
+The answer is __120 combinations__.
+
 ## Usage
 
 Installing
