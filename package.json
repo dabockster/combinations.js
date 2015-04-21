@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/dabockster/Combinations/issues"
   },
-  "homepage": "https://github.com/dabockster/Combinations"
+  "homepage": "https://github.com/dabockster/Combinations",
+  "dependencies": {
+    "mathjs": "^1.5.2"
+  }
 }
