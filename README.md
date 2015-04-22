@@ -10,7 +10,7 @@ Basically, it's doing this:
 
 ![](http://i.imgur.com/BTB1wG9.png)
 
-as long as _k_ > _n_, while _k_ < _n_ returns 0.
+as long as _k_ < _n_.
 
 We call this _n choose k_.
 
@@ -22,7 +22,7 @@ In other words, we are finding _5 choose 3_.
 
 ![](http://i.imgur.com/8ku3UHj.png)
 
-({∅}, {1,1,1}, {1,1,2}, {1,1,3}, {1,1,4}, {1,1,5}, {1,2,1}, {1,2,2}, ..., {5,5,5})
+({1,2,3}, {1,2,4}, {1,2,5}, {1,3,4}, {1,3,5}, {1,4,5}, {2,3,4}, {2,3,5}, {2,4,5}, {3,4,5})
 
 The answer is __10 combinations__.
 
